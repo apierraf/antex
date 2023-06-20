@@ -9,7 +9,6 @@
 .history
 .svn/
 
-
 # IntelliJ related
 *.iml
 *.ipr
@@ -31,16 +30,20 @@
 .pub-cache/
 .pub/
 /build/
-pubspec.lock
 
 # Web related
-lib/generated_plugin_registrant.dart
 
 # Symbolication related
 app.*.symbols
 
 # Obfuscation related
 app.*.map.json
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# Pubspec
+pubspec.lock
 
 # Android Studio will place build artifacts here
 /android/app/debug

@@ -37,9 +37,6 @@ class LoginPage extends StatelessWidget {
                     padding: const EdgeInsets.all(20),
                     child: Image.asset("assets/logo_antex.png"),
                   ),
-                  SizedBox(
-                    height: Get.size.height * 0.05,
-                  ),
                   SingleChildScrollView(
                     child: Form(
                         key: controller.formKey,
